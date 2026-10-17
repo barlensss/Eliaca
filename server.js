@@ -312,7 +312,7 @@ app.post('/api/lockchat', async (req, res) => {
     } catch (err) { return res.status(500).json({ ok: false, error: err.message }); }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
     console.log('====================================');
     console.log('BARA x AURELIA SERVER RUNNING');
