@@ -1,7 +1,7 @@
 {
   "name": "bara-aurelia",
   "version": "1.0.0",
-  "description": "Bara x Aurelia Real System",
+  "description": "Bara x Aurelia Render System",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
